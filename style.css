@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      color: #1c1e21;
+      background-color: rgb(236, 236, 236);
+  }
+  
+  .fb_logo {
+    width: 18vw;
+  }
+  
+  .center {
+    text-align: center;
+  
+  }
+  
+  form {
+    min-width: 150px;
+    max-width: 420px;
+    width: 80vw;
+    margin: 10px auto;
+    border: 0.2px solid rgb(243, 242, 242);
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 2px 5px 2px #cac9c9;
+  }
+  
+  fieldset {
+    padding: 20px 10px;
+    border: none;
+    border-bottom: 1px solid rgb(212, 211, 211);
+  
+  }
+
+  .box{
+      padding: 15px;
+  }
+  
+  .flex {
+    /* background-color: red; */
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  
+  .input {
+    padding: 2px 5px;
+    /* border-radius: 5px; */
+  
+  }
+  
+  #firstName,
+  #lastName {
+    width: 45%;
+    height: 30px;
+  }
+  
+  #mobile,
+  #password {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    left: -4px;
+    height: 30px;
+  }
+  
+  .block {
+    padding: 1px 9px;
+    padding-left: -2px;
+  }
+  
+  input {
+    padding: 3px;
+    border: 1px solid #c0bfbc;
+    border-radius: 5.5px;
+  }
+.small-text{
+    color: rgb(59, 59, 59);
+    font-size: 10px;
+    margin-left: 5px;
+}
+.space-between{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rad{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 3px;
+    /* background-color: red; */
+    width: 100px;
+    font-weight: light;
+}
+
+.wid{
+    font-weight: light;
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.smaller-text{
+    padding: 10px 5px;
+    font-size: 10px;
+}
+
+.footer{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
+
+#signUp{
+    background-color: #00a400;
+    color: white;
+    font-size: 17px;
+    border: none;
+    padding: 8px;
+    width: 35%;
+}
+#have{
+    color: #1877f2;
+}
+
+.input{
+    margin: 8px auto;
+    /* height: 35px; */
+}
+.open-source{
+  text-align: center;
+  margin: 0;
+}
+.last{
+  margin-top: 10vh;
+}
+.end{
+  font-style: italic;
+}
